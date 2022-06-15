@@ -1,0 +1,524 @@
+@charset "UTF-8";
+
+
+
+  @font-face {
+    font-family: "Relativ";
+    src: url("/fonts/RelativVF.ttf") format("truetype-variations");
+  }
+
+
+body, html {
+    font-family: 'Relativ', Courier, monospace;
+    background-color: #000000;
+    color: #fbfbfb;
+   kerning: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
+    -moz-font-feature-settings: 'case';     /* low-level (old Firefox)      */
+-webkit-font-feature-settings: 'case';  /* low-level (old Webkit)       */
+font-feature-settings: 'case' on;       /* low-level (all new browsers) */
+hyphens: auto;
+     
+}
+
+
+/* Infos Font Entete */
+
+.infosdistance{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 1vw;
+    padding-top: 0.5vh;
+    font-variation-settings: 'opsz' 50;
+    font-size: 1.8vw;
+    
+}
+
+.distance{
+    width: 33%;
+}
+
+.font{
+    width: 33%;
+}
+
+.Fontname{
+    width: 33%;
+}
+
+
+/* Wrappers */
+
+.wrapper {
+    overflow-y: hidden;
+    height: 100%;
+}
+
+
+.wrapper1{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.wrapper2{
+    width: 100%;
+    height: 100vh;
+    background-color: #ff3737;
+    color: black;
+}
+
+.wrapper3{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    color: black;
+ }
+
+ .wrapper4{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.wrapper5{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    color: black;
+}
+
+.wrapper6{
+    width: 100%;
+    height: 100vh;
+    background-color: #ff3737;
+    color: black;
+}
+
+.wrapper7{
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper8{
+    width: 100%;
+    height: 100vh;
+    background-color: #00d550;
+    color: black;
+ }
+
+ .wrapper9{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.wrapper10{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    color: black;
+}
+
+.wrapper11{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
+}
+
+.wrapper12{
+    width: 100%;
+    height: 100vh;
+    background-color: #00d550;
+    color: black;
+}
+
+
+.wrapper13{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    color: black;
+}
+
+.wrapper14{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+ }
+
+ .wrapper15{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+
+
+/* Page1 */
+
+.page1{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 0.5vh;
+    font-size: 14vw;
+    line-height: 0.9;
+}
+
+/* Page2 */
+
+.page2{
+    width: inherit;
+    text-align: left;
+    padding-top: 6.5vh;
+    padding-left: 1.5vw;
+    font-size: 58vw;
+    line-height: 0.72;
+   
+}
+
+/* Page3 */
+
+.page3{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 3vh;
+    padding-bottom: 0.5vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    font-size: 22vw;
+    line-height: 0.8;
+   
+}
+
+/* Page4 */
+
+.page4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-bottom: 1.5vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+
+  
+   
+   
+}
+
+.page4text1{
+    font-size: 3.2vw;
+    line-height: 1.1;
+}
+
+.page4text2{
+
+    column-count: 2;
+    font-size: 1.5vw;
+    line-height: 1.2;
+}
+
+.page4text3{
+    column-span: all;
+    font-size: 3.2vw;
+    line-height: 1.1;
+
+}
+
+.page4text4{
+
+    column-count: 2;
+    font-size: 1.5vw;
+    line-height: 1.2;
+}
+
+.page4numero{
+    font-size: 20vw;
+}
+
+/* Page5 */
+
+.page5{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 0.5vh;
+    font-size: 14vw;
+    line-height: 0.9;
+}
+
+/* Page6 */
+.page6{
+    width: inherit;
+    text-align: left;
+    padding-top: 6.5vh;
+    padding-left: 1.5vw;
+    font-size: 58vw;
+    line-height: 0.72;
+}
+/* Page7 */
+.page7{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 0.5vh;
+    font-size: 14vw;
+    line-height: 0.9;  
+}
+
+
+.flextext{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Page8 */
+.page8{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 4vh;
+    font-size: 101vw;
+    line-height: 0.9;
+}
+
+/* Page9 */
+.page9{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 0.5vh;
+    font-size: 14vw;
+    line-height: 0.9;
+}
+
+
+/* Page10 */
+.page10{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 3vh;
+    padding-bottom: 0.5vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    font-size: 22vw;
+    line-height: 0.8;
+   
+}
+
+/* Page11 */
+hr{
+    border: 1px solid rgb(255, 255, 255);
+
+    width: 100%;
+}
+.page11{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-bottom: 1.5vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+.page11text1{
+    font-size: 3.2vw;
+    line-height: 1.1;
+
+
+}
+
+.page11text2{
+
+    column-count: 2;
+    font-size: 1.5vw;
+    line-height: 1.2;
+}
+
+.page11text3{
+    column-span: all;
+    font-size: 3.2vw;
+    line-height: 1.1;
+
+}
+
+.page11text4{
+
+    column-count: 2;
+    font-size: 1.5vw;
+    line-height: 1.2;
+}
+
+.page11numero{
+    font-size: 20vw;
+}
+
+
+/* Page12 */
+.page12{
+    width: inherit;
+    text-align: left;
+    padding-top: 6.5vh;
+    padding-left: 1.5vw;
+    font-size: 58vw;
+    line-height: 0.72;
+}
+
+/* Page13 */
+.page13{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 0.5vh;
+    font-size: 14vw;
+    line-height: 0.9;
+}
+
+/* Page14 */
+.page14{
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-bottom: 0.5vh;
+    font-size: 14vw;
+    line-height: 0.9;
+   
+}
+
+/* Page15 */
+
+.page15{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 0.5vh;
+    font-size: 10vw;
+    line-height: 0.95;
+
+  
+   
+   
+}
+
+
+
+/* Hide/Show */
+
+#defaultCanvas0{
+    visibility: hidden;
+}
+
+.wrapper1{
+    display: flex;
+}
+.wrapper2 {
+    display: none;
+}
+.wrapper3 {
+    display: none;
+}
+
+.wrapper4{
+    display: none;
+}
+
+.wrapper5{
+    display: none;
+}
+
+.wrapper6{
+    display: none;
+}
+
+.wrapper7{
+    display: none;
+}
+
+
+.wrapper8{
+    display: none;
+}
+
+.wrapper9{
+    display: none;
+}
+
+.wrapper10{
+    display: none;
+}
+
+
+.wrapper11{
+    display: none;
+}
+
+
+.wrapper12{
+    display: none;
+}
+
+.wrapper13{
+    display: none;
+}
+
+.wrapper14{
+    display: none;
+}
+
+.wrapper15{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+

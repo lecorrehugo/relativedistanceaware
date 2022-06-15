@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Name" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
+    />
+
+    <link rel="shortcut icon" type="image/png" href="" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+    <title>starter_template</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <!-- Page 1 -->
+      <div class="wrapper1">
+        <div class="infosdistance">
+          <div class="Fontname">Relativ Grotesk</div>
+          <div class="distance"></div>
+          <div class="font"></div>
+        </div>
+        <div class="page1">
+          <ul class="page1text1">
+            <li>Gulliver’s</li>
+            <li>Travels</li>
+          </ul>
+          <ul class="page1text2" style="text-transform: uppercase">
+            <li>↓</li>
+            <li>PART①</li>
+            <li>Voyage À</li>
+            <li>Lilliput</li>
+            <li>↑</li>
+          </ul>
+
+          <ul class="page1text3">
+            <li>(1726)</li>
+            <li>Jonathan</li>
+            <li>Swift</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Page 2 -->
+
+      <div class="wrapper2">
+        <div class="infosdistance">
+          <div class="Fontname">Relativ Grotesk</div>
+          <div class="distance"></div>
+          <div class="font"></div>
+        </div>
+
+        <div class="page2">
+          <ul class="page2text1" style="text-transform: uppercase">
+            <li>6"</li>
+            <li>15</li>
+            <li>c</li>
+            <li>m!</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Page 3 -->
+      <div class="wrapper3">
+        <div class="infosdistance">
+          <div class="Fontname">Relativ Grotesk</div>
+          <div class="distance"></div>
+          <div class="font"></div>
+        </div>
+        <div class="page3">
+          <ul class="page3text1">
+            <li>1720</li>
+            <li>Krach</li>
+          </ul>
+          <ul class="page3text2">
+            <span class="flextext">
+              <li>128£</li>
+              <li>–</li>
+            </span>
+            <li>1,050£</li>
+          </ul>
+          <ul class="page3text3">
+            <li>Stock</li>
+            <li>UK</li>
+          </ul>
+
+          <ul class="page3text3">
+            <li>Social</li>
+            <li>Satire</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Page 4 -->
+      <div class="wrapper4">
+        <div class="infosdistance">
+          <div class="Fontname">Relativ Grotesk</div>
+          <div class="distance"></div>
+          <div class="font"></div>
+        </div>
+        <div class="page4">
+          <span class="page4text1"
+            >Les Voyages de Gulliver marquent un sommet de la satire sociale et
+            politique au travers d’éléments mêlant, sur le mode du pamphlet ou
+            de la description narrative, de la philosophie, de la logique, du
+            fantastique et de la science-fiction. Le roman a été écrit par Swift
+            après le krach de 1720. Il avait acheté des actions de la Compagnie
+            des mers du Sud pour 1,000 livres. La spéculation avait fait passer
+            la valeur d’une action de 128 livres à 1,050 livres, avant de
+            s’effondrer ruinant bon nombre de commerçants britanniques. Cet
+            accroissement puis cette miniaturisation de la richesse en un temps
+            très court a dû donner à Swift l’idée des changements de taille
+            relative de son personnage principal qui serait une métaphore de ce
+            krach en donnant à Swift l’occasion de se moquer des travers de la
+            société de son temps.
+          </span>
+          <div class="page4text2">
+            Dans ce premier voyage, Lemuel Gulliver, chirurgien de marine,
+            navigue vers Bristol. Après un naufrage, il se retrouve sur l’île de
+            Lilliput, dont les habitants, les Lilliputiens, ne mesurent
+            qu’environ six pouces de haut (env. 15 cm). Par plusieurs aspects,
+            la société lilliputienne semble bien plus avancée que l’Angleterre
+            de l’époque, bien que les peuples passent leur temps à faire la
+            guerre. Après bien des aventures, Gulliver découvre l’origine de la
+            guerre entre Lilliput et Blefuscu qui est l’île voisine : un roi a
+            voulu imposer le côté par lequel devaient être cassés les œufs à la
+            coque ; d’où le nom des partisans de chaque doctrine, les
+            Gros-boutistes et les Petits-boutistes. À la fin du récit, Gulliver
+            doit fuir Lilliput pour Blefuscu&thinsp;: en effet, en ayant refusé
+            d’asservir les Blefusciens vaincus et surtout à la suite d’un
+            complot fomenté par le Grand Amiral et certains ministres
+            lilliputiens, il perd les grâces de l’Empereur. S’il restait, il se
+            risquerait à une sentence d’arrachement de ses yeux, l’Empereur
+            ayant atténué la peine prévue par les ministres&thinsp;: la mort. Il
+            parvient finalement à retrouver un navire au large pour retourner en
+            Angleterre.
+          </div>
+
+          <div class="page4numero">PART❶</div>
+
+          <div class="page4text3">
+            Gulliver’s Travels is a peak of social and political satire through
+            elements of pamphlet and narrative description, philosophy, logic,
+            fantasy and science fiction. The novel was written by Swift after
+            the crash of 1720, when he bought shares in the South Sea Company
+            for 1,000 pounds. Speculation had increased the value of a share
+            from 128 pounds to 1,050 pounds, before collapsing, ruining many
+            British merchants. This increase and then miniaturization of wealth
+            in a very short time must have given Swift the classea of changes in
+            the relative size of his main character, which would be a metaphor
+            for this crash, giving Swift the opportunity to make fun of the
+            shortcomings of the society of his time.
+          </div>
+
+          <div class="page4text4">
+            During his first voyage, Gulliver is washed ashore after a shipwreck
+            and finds himself a prisoner of a race of tiny people, less than 6
+            inches (15 cm) tall, who are inhabitants of the island country of
+            Lilliput. After giving assurances of his good behaviour, he is given
+            a resclassence in Lilliput and becomes a favourite of the Lilliput
+            Royal Court. He is also given permission by the King of Lilliput to
+            go around the city on condition that he must not hurt their
+            subjects. At first, the Lilliputians are hospitable to Gulliver, but
+            they are also wary of the threat that his size poses to them. The
+            Lilliputians reveal themselves to be a people who put great emphasis
+            on trivial matters. For example, which end of an egg a person cracks
+            becomes the basis of a deep political rift within that nation.
+            <br />
+            They are a people who revel in displays of authority and
+            performances of power. Gulliver assists the Lilliputians to subdue
+            their neighbours the Blefuscudians by stealing their fleet. However,
+            he refuses to reduce the island nation of Blefuscu to a province of
+            Lilliput, displeasing the King and the royal court. Gulliver is
+            charged with treason for, among other crimes, urinating in the
+            capital though he was putting out a fire. He is convicted and
+            sentenced to be blinded. With the assistance of a kind friend, “a
+            consclasserable person at court”, he escapes to Blefuscu. Here, he
+            spots and retrieves an abandoned boat and sails out to be rescued by
+            a passing ship, which safely takes him back home with some
+            Lilliputian animals he carries with him.
+          </div>
+        </div>
+      </div>
+
+      <!-- Page 5 -->
+      <div class="wrapper5">
+        <div class="infosdistance">
+          <div class="Fontname">Relativ Grotesk</div>
+          <div class="distance"></div>
+          <div class="font"></div>
+        </div>
+        <div class="page5">
+          <ul class="page5text2" style="text-transform: uppercase">
+            <li>Lilliput</li>
+            <li>BlefuscÜ</li>
+          </ul>
+          <ul class="page5text1">
+            <li>Gulliver</li>
+            <li>(Giant)</li>
+            <li>&</li>
+            <li>{TINY}</li>
+            <li>The King</li>
+            <li>+Edward</li>
+          </ul>
+
+          <ul class="page5text2" style="text-transform: uppercase">
+            <li>Lat+Long</li>
+            <li>30°2’S</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Page 6 -->
+
+      <div class="wrapper6">
+        <div class="infosdistance">
+          <div class="Fontname">Relativ Grotesk</div>
+          <div class="distance"></div>
+          <div class="font"></div>
+        </div>
+
+        <div class="page6">
+          <ul class="page6text1" style="text-transform: uppercase">
+            <li>12</li>
+            <li>MI</li>
+            <li>LE</li>
+            <div class="flextext">
+              <li>S</li>
+              <li>→</li>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Page 7 -->
+      <div class="wrapper7">
+        <div class="infosdistance">
+          <div class="Fontname">Relativ Grotesk</div>
+          <div class="distance"></div>
+          <div class="font"></div>
+        </div>
+        <div class="page7">
+          <ul class="page7text1">
+            <li>Parodies</li>
+            <li>→British←</li>
+            <li>{Politics}</li>
+          </ul>
+          <ul class="page7text2">
+            <li>(Whigs)</li>
+            <li>High Heel</li>
+            <li>&</li>
+            <li>(Tories)</li>
+            <li>Low Heel</li>
+          </ul>
+
+          <ul class="page7text3">
+            <li>Big/Little</li>
+            <li>Endians</li>
+            <li>Rebellion</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Page 8 -->
+      <div class="wrapper8">
+        <div class="infosdistance">
+          <div class="Fontname">Relativ Grotesk</div>
+          <div class="distance"></div>
+          <div class="font"></div>
+        </div>
+        <div class="page8">
+          <div class="page8text1">❷</div>
+          <div class="page8text2">ú</div>
+        </div>
+      </div>
+
+      <!-- Page 9 -->
+      <div class="wrapper9">
+        <div class="infosdistance">
+          <div class="Fontname">Relativ Grotesk</div>
+          <div class="distance"></div>
+          <div class="font"></div>
+        </div>
+        <div class="page9">
+          <ul class="page9text1">
+            <li>Giants [60]</li>
+            <li>Feet High</li>
+          </ul>
+          <ul class="page9text2" style="text-transform: uppercase">
+            <li>Guêpes &</li>
+            <li>Singes</li>
+            <li>Énormes</li>
+          </ul>
+          <ul class="page9text3">
+            <li>Mastodon</li>
+            <li>→ Danger!</li>
+          </ul>
+          <ul class="page9text4">
+            <li>Libraries</li>
+            <li>Relatively</li>
+            <li>“Small”</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Page 10 -->
+      <div class="wrapper10">
+        <div class="infosdistance">
+          <div class="Fontname">Relativ Grotesk</div>
+          <div class="distance"></div>
+          <div class="font"></div>
+        </div>
+        <div class="page10">
+          <ul class="page10text1">
+            <li>Too</li>
+            <li>Small</li>
+          </ul>
+          <ul class="page10text2">
+            <li>Giant</li>
+            <li style="text-align: right">Forks</li>
+            <span class="flextext"> <li>& Beds</li></span>
+          </ul>
+          <ul class="page10text3">
+            <li>Tiny</li>
+            <li>House</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Page 11 -->
+      <div class="wrapper11">
+        <div class="infosdistance">
+          <div class="Fontname">Relativ Grotesk</div>
+          <div class="distance"></div>
+          <div class="font"></div>
+        </div>
+        <div class="page11">
+          <span class="page11text1">
+            Brobdingnag est un royaume où vit un peuple de géants, les
+            Brobdingnags, dont parle Jonathan Swift dans son roman Les Voyages
+            de Gulliver. Le navire de Gulliver ayant échoué sur l’île de
+            Brobdingnag, il rencontre ces géants, dont les femmes ont des mœurs
+            plutôt légères, et dont les courtisans sont hideux.Les côtes sont
+            inaccessibles en raison des falaises abruptes qui les forment. Le
+            royaume ne possède aucun port. Le ciel de la presqu’île est sillonné
+            par d’énormes aigles, ainsi que par d’autres oiseaux géants. Il est
+            donc impossible de survoler le territoire ou d’y accéder par la voie
+            des airs.
+          </span>
+
+          <div class="page11text2">
+            Gulliver entreprend un deuxième voyage et se retrouve à Brobdingnag,
+            que l’auteur situe dans l’océan Pacifique entre le Japon et
+            l’Amérique. Il se retrouve alors dans la situation inverse de
+            Lilliput, tous les Brobdingnagiens sont des géants. L’un d’entre eux
+            s’empare de Gulliver pour l’emmener dans sa ferme, où une petite
+            fille, qu’il surnomme Glumdalclitch, s’occupe de lui. Il est par la
+            suite acheté par la cour royale de Brobdingnag et y réside avec sa
+            nourrice Glumdalclitch. Du fait de sa petite taille, le héros
+            devient un objet de curiosité pour le roi, la reine et la cour, et
+            devient notamment favori de la reine. Il explique au roi le système
+            politique existant en Angleterre. Le souverain critique vivement les
+            institutions anglaises. Mais à la suite d’un manque d’attention de
+            la part d’un courtisan qui l’emmenait en balade près d’une falaise,
+            Gulliver se retrouve emporté depuis sa chambre artificielle par un
+            aigle, puis est repêché par des marins, qui le ramènent en
+            Angleterre, où il a l’impression durant quelque temps de voir la
+            population plus petite que lui.
+          </div>
+
+          <div class="page11numero">PART❷</div>
+          <div class="page11text3">
+            Brobdingnag is a fictional land, which is occupied by giants, in
+            Jonathan Swift’s 1726 satirical novel Gulliver’s Travels. The
+            story’s main character, Lemuel Gulliver, visits the land after the
+            ship on which he is travelling is blown off course. As a result, he
+            becomes separated from a party exploring the unknown land. In the
+            second preface to the book, Gulliver laments that the publisher
+            misspelled the land’s name, which Gulliver asserts is actually
+            called Brobdingrag. The adjective “Brobdingnagian” has come to
+            describe anything of colossal size.
+          </div>
+
+          <div class="page11text4">
+            Gulliver soon sets out again. When the sailing ship Adventure is
+            blown off course by storms and forced to sail for land in search of
+            fresh water, Gulliver is abandoned by his companions and left on a
+            peninsula on the western coast of the North American continent. The
+            grass of Brobdingnag is as tall as a tree. He is then found by a
+            farmer who is about 72 ft (22 m) tall, judging from Gulliver
+            estimating the man’s step being 10 yards (9 m). The giant farmer
+            brings Gulliver home, and his daughter Glumdalclitch cares for
+            Gulliver. The farmer treats him as a curiosity and exhibits him for
+            money. After a while the constant display makes Gulliver sick, and
+            the farmer sells him to the queen of the realm. Glumdalclitch (who
+            accompanied her father while exhibiting Gulliver) is taken into the
+            queen’s service to take care of the tiny man. Since Gulliver is too
+            small to use their huge chairs, beds, knives and forks, the queen
+            commissions a small house to be built for him so that he can be
+            carried around in it; this is referred to as his “travelling box”.
+            Between small adventures such as fighting giant wasps and being
+            carried to the roof by a monkey, he discusses the state of Europe
+            with the King of Brobdingnag. The king is not happy with Gulliver’s
+            accounts of Europe, especially upon learning of the use of guns and
+            cannon. On a trip to the seaside, his traveling box is seized by a
+            giant eagle which drops Gulliver and his box into the sea where he
+            is picked up by sailors who return him to England.
+          </div>
+        </div>
+      </div>
+
+      <!-- Page 12 -->
+
+      <div class="wrapper12">
+        <div class="infosdistance">
+          <div class="Fontname">Relativ Grotesk</div>
+          <div class="distance"></div>
+          <div class="font"></div>
+        </div>
+
+        <div class="page12">
+          <ul class="page12text1" style="text-transform: uppercase">
+            <li>79</li>
+            <li>Ft</li>
+            <li>22</li>
+
+            <li>M!</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Page 13 -->
+      <div class="wrapper13">
+        <div class="infosdistance">
+          <div class="Fontname">Relativ Grotesk</div>
+          <div class="distance"></div>
+          <div class="font"></div>
+        </div>
+        <div class="page13">
+          <ul class="page13text1">
+            <li>Toy/Man</li>
+            <li>Humanity</li>
+            <li>Denied?</li>
+          </ul>
+          <ul class="page13text2">
+            <li>Ancients</li>
+            <li>❶[VS]❷</li>
+            <li>Moderns</li>
+            <li>Theme</li>
+          </ul>
+          <ul class="page13text3">
+            <li>2 Islannds</li>
+
+            <li>↑Similar↓</li>
+            <li>Patterns</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Page 14 -->
+      <div class="wrapper14">
+        <div class="infosdistance">
+          <div class="Fontname">Relativ Grotesk</div>
+          <div class="distance"></div>
+          <div class="font"></div>
+        </div>
+        <div class="page14">
+          <ul class="page14text1">
+            <div class="flextext">
+              <li>Relativ</li>
+              <li>®</li>
+            </div>
+
+            <li>Distance</li>
+            <li>Aware</li>
+          </ul>
+          <ul class="page14text1">
+            <span class="flextext">
+              <li>Micro</li>
+              <li>←</li>
+            </span>
+            <span class="flextext">
+              <li>→</li>
+              <li>Macro</li>
+            </span>
+            <li>Typeface</li>
+          </ul>
+          <ul class="page14text1">
+            <span class="flextext">
+              <li>Legible</li>
+              <li>+</li>
+            </span>
+            <li>Expressiv</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Page 15 -->
+      <div class="wrapper15">
+        <div class="infosdistance">
+          <div class="Fontname">Relativ Grotesk</div>
+          <div class="distance"></div>
+          <div class="font"></div>
+        </div>
+        <div class="page15">
+          <ul class="page15text1">
+            <li>AÀÂÄÆBCÇ</li>
+            <li>DEÈÉÊËFGH</li>
+            <li>IÌÍÎÏJKLMN</li>
+            <li>OÒÓÔÖPQR</li>
+            <li>STUÙÚÛ</li>
+            <li>ÜVWXYZ</li>
+          </ul>
+
+          <ul class="page15text3">
+            <li>aàáâäæbcçd</li>
+            <li>eèéêëfghiìííîï</li>
+            <li>klmnoòóôö</li>
+            <li>pqrstuùúûü</li>
+            <li>vwxyýýz</li>
+          </ul>
+          <ul class="page15text2">
+            <li>0123456789</li>
+
+            <li>!?,:;…()[]{}«»“”</li>
+            <li>€$+−↔↑↓→</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <main></main>
+    <div class="greenDiv"></div>
+    <script src="js/script.js"></script>
+    <script src="js/steps.js"></script>
+  </body>
+</html>
