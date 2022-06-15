@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 });
 
-console.log("sexe");
+console.log("bite");
 
 // ml5.js: Object Detection with COCO-SSD (Webcam)
 // The Coding Train / Daniel Shiffman
