@@ -38,7 +38,7 @@
 
 
 let counter = 0; 
-let wait = 10000;
+let wait = 15000;
 
 let IDTimeout;
 let isRuning = true;
@@ -50,10 +50,10 @@ function update() {
     // document.body.classList.add("style-" + counter);
 
     if (counter === 1) {
-    document.querySelector(".wrapper1").style.display = "none";
+    document.querySelector(".wrapper1").style.display = "flex";
     document.querySelector(".wrapper2").style.display = "none";
     document.querySelector(".wrapper3").style.display = "none";
-    document.querySelector(".wrapper4").style.display = "flex";
+    document.querySelector(".wrapper4").style.display = "none";
     document.querySelector(".wrapper5").style.display = "none";
     document.querySelector(".wrapper6").style.display = "none";
     document.querySelector(".wrapper7").style.display = "none";
@@ -67,7 +67,7 @@ function update() {
     document.querySelector(".wrapper15").style.display = "none";
 
 
-    wait = 10000;
+    wait = 15000;
 
     console.log("ETAPE 1");
 
@@ -93,7 +93,7 @@ function update() {
        
        
         console.log("ETAPE 2");
-        wait = 10000;
+        wait = 15000;
 
 
     }
@@ -119,7 +119,7 @@ function update() {
         
         console.log("ETAPE 3");
      
-        wait = 10000;
+        wait = 15000;
 
     }
 
@@ -142,7 +142,7 @@ function update() {
     
        
         console.log("ETAPE 4");
-        wait = 12000;
+        wait = 16000;
 
 
     }
@@ -166,7 +166,7 @@ function update() {
         document.querySelector(".wrapper15").style.display = "none";
     
 
-        wait = 10000;
+        wait = 15000;
         console.log("ETAPE 5");
 
     }
@@ -190,7 +190,7 @@ function update() {
     
 
         console.log("ETAPE 6");
-        wait = 10000;
+        wait = 15000;
 
 
 
@@ -217,7 +217,7 @@ function update() {
 
        
         console.log("ETAPE 7");
-        wait = 10000;
+        wait = 15000;
      
 
     }
@@ -242,7 +242,7 @@ function update() {
 
        
         console.log("ETAPE 8");
-        wait = 11000;
+        wait = 15000;
 
 
         
@@ -270,7 +270,7 @@ function update() {
 
        
         console.log("ETAPE 9");
-        wait = 11000;
+        wait = 15000;
 
     }
 
@@ -295,7 +295,7 @@ function update() {
 
        
         console.log("ETAPE 10");
-        wait = 11000;
+        wait = 15000;
 
     }
 
@@ -320,7 +320,7 @@ function update() {
 
        
         console.log("ETAPE 11");
-        wait = 11000;
+        wait = 15000;
 
     }
 
@@ -347,7 +347,7 @@ function update() {
 
        
         console.log("ETAPE 12");
-        wait = 11000;
+        wait = 15000;
 
     }
 
@@ -372,7 +372,7 @@ function update() {
 
        
         console.log("ETAPE 13");
-        wait = 11000;
+        wait = 15000;
 
     }
 
@@ -397,7 +397,7 @@ function update() {
 
        
         console.log("ETAPE 14");
-        wait = 11000;
+        wait = 15000;
 
     }
     if (counter === 15) {
@@ -422,7 +422,7 @@ function update() {
 
        
         console.log("ETAPE 15");
-        wait = 11000;
+        wait = 15000;
         counter = 0;
 
     }

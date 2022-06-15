@@ -158,7 +158,7 @@ function draw() {
         $(".page11text2").css("font-variation-settings", "\"opsz\"" + opszDISPLAY1);
         $(".page11text3").css("font-variation-settings", "\"opsz\"" + opszDISPLAY2);
         $(".page11text4").css("font-variation-settings", "\"opsz\"" + opszDISPLAY1);
-        $(".page11numero").css("font-variation-settings", "\"opsz\"" + opsz2);
+        $(".page11numero").css("font-variation-settings", "\"opsz\"" + opszDISPLAY3);
         $(".page12").css("font-variation-settings", "\"opsz\"" + opsz3);
         $(".page13").css("font-variation-settings", "\"opsz\"" + opsz1);
         $(".page14").css("font-variation-settings", "\"opsz\"" + opsz1);

@@ -211,17 +211,19 @@ hyphens: auto;
 /* Page4 */
 
 .page4{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; */
     padding-top: 3vh;
-    padding-bottom: 1.5vh;
+   
     padding-left: 1.5vw;
     padding-right: 1.5vw;
+}
 
-  
-   
-   
+.page4wrapper2{
+    position: absolute;
+    padding-right: 1.5vw;
+    bottom:1.5vh
 }
 
 .page4text1{
@@ -230,13 +232,15 @@ hyphens: auto;
 }
 
 .page4text2{
-
+    padding-top: 1.5em;
     column-count: 2;
+    column-gap: 1em;
     font-size: 1.5vw;
     line-height: 1.2;
 }
 
 .page4text3{
+    
     column-span: all;
     font-size: 3.2vw;
     line-height: 1.1;
@@ -244,14 +248,31 @@ hyphens: auto;
 }
 
 .page4text4{
-
+    padding-top: 1.5em;
     column-count: 2;
     font-size: 1.5vw;
     line-height: 1.2;
 }
 
 .page4numero{
+    padding-top: 0.8vh;
     font-size: 20vw;
+}
+
+.page4text2entete{
+    padding-top: 1.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.5vw;
+    column-gap: 1em;
+}
+
+.page4text4entete{
+    padding-top: 1.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.5vw;
+    column-gap: 1em;
 }
 
 /* Page5 */
@@ -345,14 +366,21 @@ hr{
     width: 100%;
 }
 .page11{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; */
     padding-top: 3vh;
-    padding-bottom: 1.5vh;
+   
     padding-left: 1.5vw;
     padding-right: 1.5vw;
 }
+
+.page11wrapper2{
+    position: absolute;
+    padding-right: 1.5vw;
+    bottom:1.5vh
+}
+
 
 .page11text1{
     font-size: 3.2vw;
@@ -362,10 +390,25 @@ hr{
 }
 
 .page11text2{
-
+    padding-top: 1.5em;
     column-count: 2;
     font-size: 1.5vw;
     line-height: 1.2;
+}
+
+.page11text2entete{
+    padding-top: 1.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.5vw;
+    column-gap: 1em;
+}
+.page11text4entete{
+    padding-top: 1.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.5vw;
+    column-gap: 1em;
 }
 
 .page11text3{
@@ -376,7 +419,7 @@ hr{
 }
 
 .page11text4{
-
+    padding-top: 1.5em;
     column-count: 2;
     font-size: 1.5vw;
     line-height: 1.2;
@@ -384,6 +427,9 @@ hr{
 
 .page11numero{
     font-size: 20vw;
+    padding-top: 4.5vh;
+  
+    line-height: 0.8;
 }
 
 
@@ -436,7 +482,7 @@ hr{
     padding-top: 3vh;
     padding-bottom: 0.5vh;
     font-size: 10vw;
-    line-height: 0.95;
+    line-height: 1;
 
   
    
