@@ -60,8 +60,8 @@ let opszDISPLAY1 = 0;
 let opszDISPLAY2 = 0;
 let opszDISPLAY3 = 0;
 
-let minPercent = 0.40;
-let maxPercent = 0.73;
+let minPercent = 0.42;
+let maxPercent = 0.70;
 
 
 function draw() {

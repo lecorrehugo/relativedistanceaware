@@ -20,7 +20,7 @@ body, html {
 -webkit-font-feature-settings: 'case';  /* low-level (old Webkit)       */
 font-feature-settings: 'case' on;       /* low-level (all new browsers) */
 hyphens: auto;
-     
+     cursor: none;
 }
 
 
