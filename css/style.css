@@ -59,6 +59,14 @@ hyphens: auto;
 }
 
 
+.wrapper0{
+    width: 100%;
+    height: 100vh;
+ 
+    
+}
+
+
 .wrapper1{
     width: 100%;
     height: 100vh;
@@ -179,6 +187,19 @@ hyphens: auto;
     line-height: 0.9;
 }
 
+.page0{
+    font-variation-settings: 'opsz' 200;
+
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 0.5vh;
+    font-size: 14vw;
+    line-height: 0.9;
+}
 /* Page2 */
 
 .page2{
@@ -497,8 +518,13 @@ hr{
     visibility: hidden;
 }
 
-.wrapper1{
+.wrapper0{
     display: flex;
+}
+
+
+.wrapper1{
+    display: none;
 }
 .wrapper2 {
     display: none;

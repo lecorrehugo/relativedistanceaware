@@ -88,9 +88,9 @@ function draw() {
             document.querySelectorAll('.distance').forEach(function(el) {
                 el.innerHTML = "Distance: " + Math.round(closenessPercent * 100)/100;
               });
-              document.querySelectorAll('.font').forEach(function(el) {
-                el.innerHTML = "Optical Size: " + Math.round(opszNeutral);
-              });
+            //   document.querySelectorAll('.font').forEach(function(el) {
+            //     el.innerHTML = "Optical Size: " + Math.round(opszNeutral);
+            //   });
               
             // document.getElementById("distance").innerHTML = "Distance: " + closenessPercent;
             // document.getElementById("font").innerHTML = "Optical Size: " + closenessPercent * 200;
@@ -127,7 +127,7 @@ function draw() {
 
 
        
-        opszNeutral = clamp(invertPercent(closenessPercent), minPercent, maxPercent);
+        // opszNeutral = clamp(invertPercent(closenessPercent), minPercent, maxPercent);
 
         let opsz1 = clamp(invertPercent(closenessPercent), minPercent, maxPercent);
         let opsz2 = clamp(invertPercent(closenessPercent), minPercent, maxPercent);
@@ -137,7 +137,7 @@ function draw() {
 
         opsz1 = map(opsz1, minPercent, maxPercent, 200, 50);
         opsz2 = map(opsz2, minPercent, maxPercent, 200, 70);
-        opszNeutral = map(opszNeutral, minPercent, maxPercent, 200, 50);
+        // opszNeutral = map(opszNeutral, minPercent, maxPercent, 200, 50);
         opsz3 = map(opsz3, minPercent, maxPercent, 200, 100);
         opsz4 = map(opsz4, minPercent, maxPercent, 200, 0);
         opsz5 = map(opsz5, minPercent, maxPercent, 200, 125);
@@ -164,7 +164,7 @@ function draw() {
         $(".page11numero").css("font-variation-settings", "\"opsz\"" + opszDISPLAY3);
         $(".page12").css("font-variation-settings", "\"opsz\"" + opsz3);
         $(".page13").css("font-variation-settings", "\"opsz\"" + opsz1);
-        $(".page14").css("font-variation-settings", "\"opsz\"" + opsz1);
+        $(".page14").css("font-variation-settings", "\"opsz\"" + opsz4);
         $(".page15").css("font-variation-settings", "\"opsz\"" + opsz4);
     
 
