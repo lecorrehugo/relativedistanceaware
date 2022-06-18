@@ -22,6 +22,7 @@ let timerMvt = 0;
 let oldCloseness = 0;
 let isAnimating = false;
 let isAnimatingOld = false;
+let opszNeutral;
 
 function preload() {
     detector = ml5.objectDetector('cocossd');
@@ -59,8 +60,8 @@ let opszDISPLAY1 = 0;
 let opszDISPLAY2 = 0;
 let opszDISPLAY3 = 0;
 
-let minPercent = 0.35;
-let maxPercent = 0.60;
+let minPercent = 0.40;
+let maxPercent = 0.73;
 
 
 function draw() {
@@ -88,7 +89,7 @@ function draw() {
                 el.innerHTML = "Distance: " + Math.round(closenessPercent * 100)/100;
               });
               document.querySelectorAll('.font').forEach(function(el) {
-                el.innerHTML = "Optical Size: " + Math.round(closenessPercent * 200 * 100) /100;
+                el.innerHTML = "Optical Size: " + Math.round(opszNeutral);
               });
               
             // document.getElementById("distance").innerHTML = "Distance: " + closenessPercent;
@@ -126,6 +127,7 @@ function draw() {
 
 
        
+        opszNeutral = clamp(invertPercent(closenessPercent), minPercent, maxPercent);
 
         let opsz1 = clamp(invertPercent(closenessPercent), minPercent, maxPercent);
         let opsz2 = clamp(invertPercent(closenessPercent), minPercent, maxPercent);
@@ -135,6 +137,7 @@ function draw() {
 
         opsz1 = map(opsz1, minPercent, maxPercent, 200, 50);
         opsz2 = map(opsz2, minPercent, maxPercent, 200, 70);
+        opszNeutral = map(opszNeutral, minPercent, maxPercent, 200, 50);
         opsz3 = map(opsz3, minPercent, maxPercent, 200, 100);
         opsz4 = map(opsz4, minPercent, maxPercent, 200, 0);
         opsz5 = map(opsz5, minPercent, maxPercent, 200, 125);
