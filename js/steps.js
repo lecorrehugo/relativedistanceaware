@@ -68,7 +68,7 @@ function update() {
     document.querySelector(".wrapper15").style.display = "none";
 
 
-    wait = 15000;
+    wait = 3000;
 
     console.log("ETAPE 1");
 
@@ -464,7 +464,7 @@ function update() {
        
         console.log("ETAPE 16");
         wait = 15000;
-        counter = 0;
+        counter = 1;
 
     }
 
