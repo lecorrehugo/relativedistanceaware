@@ -95,7 +95,7 @@ function update() {
        
        
         console.log("ETAPE 2");
-        wait = 15000;
+        wait = 30000;
 
 
     }
